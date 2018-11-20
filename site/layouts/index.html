@@ -1,5 +1,9 @@
 {{ partial "header" . }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
-
+<h2>All articles</h2>
+<ul>
+{{ range where .Data.Pages "Type" "posts" }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
 {{ partial "footer" . }}
