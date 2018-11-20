@@ -14,3 +14,7 @@ This is a post with mixed content
 
 ## Script
 <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+## More images
+![random image](http://loremflickr.com/320/240?random=4)
+![random image](http://loremflickr.com/320/240?random=5)
